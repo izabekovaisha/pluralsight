@@ -4,18 +4,28 @@ import java.util.Scanner;
 
 public class PayrollCalculator {
     public static void main(String[] args) {
-        Scanner potatoScanner = new Scanner (System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter your name: ");
-        String name = potatoScanner.nextLine();
+        // Prompt the user to enter their name, hours worked, and pay rate
+        System.out.print("Enter your name: ");
+        String name = input.nextLine();
+        System.out.print("Enter hours worked: ");
+        double hours = input.nextDouble();
+        System.out.print("Enter pay rate: ");
+        double rate = input.nextDouble();
 
-        System.out.println("Enter hours worked");
-        double hours = potatoScanner.nextDouble();
+        // Calculate gross pay
+        double grossPay;
+        if (hours > 40) {
+            grossPay = 40 * rate + (hours - 40) * 1.5 * rate;
+        } else {
+            grossPay = hours * rate;
+        }
 
-        System.out.println("Enter pay rate: ");
-        double rate = potatoScanner.nextDouble();
+        // Display the employee's name and gross pay
+        System.out.println("Name: " + name);
+        System.out.println("Gross Pay: $" + String.format("%.2f", grossPay));
 
-        double grossPay = hours * rate;
-        System.out.println("Name: " + name + " Gross Pay:" + grossPay );
+        input.close();
     }
 }
