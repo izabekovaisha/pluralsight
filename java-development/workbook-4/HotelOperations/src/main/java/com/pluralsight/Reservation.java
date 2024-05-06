@@ -56,6 +56,7 @@ public class Reservation {
 
     // Method to calculate total reservation price
     public double getReservationTotal() {
-        return price * numberOfNights;
+        return Double.parseDouble(String.format("%.2f", price));
     }
-}
+    }
+

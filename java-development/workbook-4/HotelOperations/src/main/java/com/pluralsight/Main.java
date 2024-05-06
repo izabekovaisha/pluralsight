@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Price per Night: $" + reservation.getPrice());
         System.out.println("Number of Nights: " + reservation.getNumberOfNights());
         System.out.println("Weekend Stay: " + reservation.isWeekend());
-        System.out.println("Reservation Total: $" + reservation.getReservationTotal());
+        System.out.printf("Reservation Total: $%.2f\n", reservation.getReservationTotal());
         System.out.println();
 
         // Test Employee class
