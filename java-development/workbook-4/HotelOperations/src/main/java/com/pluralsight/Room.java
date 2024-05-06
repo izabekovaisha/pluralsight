@@ -35,4 +35,4 @@ public class Room {
         return !occupied && !dirty; // Room is available if it's not occupied and not dirty
     }
 }
-}
+
