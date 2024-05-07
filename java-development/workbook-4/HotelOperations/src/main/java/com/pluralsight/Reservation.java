@@ -20,8 +20,8 @@ public class Reservation {
 
         // Increase price if stay is over a weekend
         if (isWeekend) {
-            this.price *= 1.10; // Increase by 10%
-            // 1.10 represents a 10% increase over the original value because it includes
+            this.price *= 1.1; // Increase by 10%
+            // 1.1 represents a 10% increase over the original value because it includes
             // the original value (1) and an additional 10% (0.10) of the original value
         }
     }

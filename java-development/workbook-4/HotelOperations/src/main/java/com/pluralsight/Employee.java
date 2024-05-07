@@ -21,7 +21,7 @@ public class Employee {
     }
 
     public double getRegularHours() {
-        return Math.min(hoursWorked, 40); // The number 40 represents the maximum number of regular hours in a standard workweek
+        return Math.min(hoursWorked, 40);
     }
 
     public double getOvertimeHours() {
@@ -33,8 +33,7 @@ public class Employee {
     }
 
     private double getOvertimePay() {
-        return getOvertimeHours() * payRate * 1.5; // Overtime pay rate is 1.5 times regular pay rate
-        // The number 1.5 represents the multiplier for calculating overtime pay
+        return getOvertimeHours() * payRate * 1.5;
     }
 }
 
