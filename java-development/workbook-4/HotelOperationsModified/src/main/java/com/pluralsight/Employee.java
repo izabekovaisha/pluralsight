@@ -1,5 +1,9 @@
 package com.pluralsight;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+
 public class Employee {
     private int employeeId;
     private String name;
@@ -16,29 +20,6 @@ public class Employee {
         this.hoursWorked = 0;
         this.startTime = 0;
     }
-
-    // Method to punch in at the specified time
-    public void punchIn(double time) {
-        startTime = time;
-    }
-
-    // Method to punch out at the specified time
-    public void punchOut(double time) {
-        double duration = time - startTime;
-        hoursWorked += duration;
-        startTime = 0;
-    }
-
-    public void punchTimeCard(double time) {
-        if (startTime == 0) {
-            startTime = time;
-        } else {
-            double duration = time - startTime;
-            hoursWorked += duration;
-            startTime = 0;
-        }
-    }
-
 
     public int getEmployeeId() {
         return employeeId;
@@ -58,6 +39,44 @@ public class Employee {
 
     public double getHoursWorked() {
         return hoursWorked;
+    }
+
+    public void punchIn(double time) {
+        startTime = time;
+    }
+
+    public void punchIn() {
+       LocalDateTime now = LocalDateTime.now();
+       int hour = now.getHour();
+       int minute = now.getMinute();
+       double time = hour + (minute / 60.0);
+        startTime = time;
+    }
+
+    public void punchOut(double time) {
+        double duration = time - startTime;
+        hoursWorked += duration;
+        startTime = 0;
+    }
+
+    public void punchOut() {
+        LocalDateTime now = LocalDateTime.now();
+        int hour = now.getHour();
+        int minute = now.getMinute();
+        double time = hour + (minute / 60.0);
+        double duration = time - startTime;
+        hoursWorked += duration;
+        startTime = 0;
+    }
+
+    public void punchTimeCard(double time) {
+        if (startTime == 0) {
+            startTime = time;
+        } else {
+            double duration = time - startTime;
+            hoursWorked += duration;
+            startTime = 0;
+        }
     }
 
     public double getTotalPay() {
@@ -83,12 +102,6 @@ public class Employee {
             return 0;
         }
     }
-
-    public double getStartTime() {
-        return startTime;
-    }
-
-    public void setStartTime(double startTime) {
-        this.startTime = startTime;
-    }
 }
+
+

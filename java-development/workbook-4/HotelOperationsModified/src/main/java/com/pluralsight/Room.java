@@ -40,6 +40,7 @@ public class Room {
             isDirty = true;
         }
     }
+
     // Method to check out of the room
     public void checkOut() {
             isOccupied = false; // Mark the room as not occupied
