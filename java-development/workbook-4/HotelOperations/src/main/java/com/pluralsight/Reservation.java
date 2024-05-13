@@ -10,19 +10,10 @@ public class Reservation {
         this.roomType = roomType;
         this.numberOfNights = numberOfNights;
         this.isWeekend = isWeekend;
-
-        // Set price based on room type
         if (roomType.equals("king")) {
             this.price = 139.00;
         } else if (roomType.equals("double")) {
             this.price = 124.00;
-        }
-
-        // Increase price if stay is over a weekend
-        if (isWeekend) {
-            this.price *= 1.1; // Increase by 10%
-            // 1.1 represents a 10% increase over the original value because it includes
-            // the original value (1) and an additional 10% (0.10) of the original value
         }
     }
 
@@ -54,9 +45,12 @@ public class Reservation {
         this.isWeekend = isWeekend;
     }
 
-    // Method to calculate total reservation price
     public double getReservationTotal() {
-        return Double.parseDouble(String.format("%.2f", price));
+        double totalPrice = price * numberOfNights;
+        if (isWeekend) {
+            totalPrice *= 1.1;
+            // totalPrice = totalPrice + totalPrice * (10/100);
+        }
+        return totalPrice;
     }
-    }
-
+}

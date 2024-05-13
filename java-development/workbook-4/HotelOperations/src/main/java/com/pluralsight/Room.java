@@ -1,3 +1,4 @@
+
 package com.pluralsight;
 
 public class Room {
@@ -6,15 +7,13 @@ public class Room {
     private boolean isOccupied;
     private boolean isDirty;
 
-    // Constructor to initialize the Room object
     public Room(int numberOfBeds, double price) {
         this.numberOfBeds = numberOfBeds;
         this.price = price;
-        this.isOccupied = false; // The room is not occupied
-        this.isDirty = false;    // The room is clean
+        this.isOccupied = false;
+        this.isDirty = false;
     }
 
-    // Getters
     public int getNumberOfBeds() {
         return numberOfBeds;
     }
@@ -32,7 +31,6 @@ public class Room {
     }
 
     public boolean isAvailable() {
-        return !isOccupied && !isDirty; // Room is available if it's not occupied and not dirty
+        return !isOccupied && !isDirty;
     }
 }
-

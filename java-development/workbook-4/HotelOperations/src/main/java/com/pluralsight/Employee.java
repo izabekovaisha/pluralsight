@@ -15,25 +15,47 @@ public class Employee {
         this.hoursWorked = hoursWorked;
     }
 
+    public int getEmployeeId() {
+        return employeeId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public double getPayRate() {
+        return payRate;
+    }
+
+    public double getHoursWorked() {
+        return hoursWorked;
+    }
+
     public double getTotalPay() {
-        double totalPay = getRegularPay() + getOvertimePay();
-        return totalPay;
+        if (hoursWorked <= 40) {
+            return hoursWorked * payRate;
+        } else {
+            return (40 * payRate) + ((hoursWorked - 40) * (payRate * 1.5));
+        }
     }
 
     public double getRegularHours() {
-        return Math.min(hoursWorked, 40);
+        if (hoursWorked <= 40) {
+            return hoursWorked;
+        } else {
+            return 40;
+        }
     }
 
     public double getOvertimeHours() {
-        return Math.max(hoursWorked - 40, 0);
-    }
-
-    private double getRegularPay() {
-        return getRegularHours() * payRate;
-    }
-
-    private double getOvertimePay() {
-        return getOvertimeHours() * payRate * 1.5;
+        if (hoursWorked > 40) {
+            return hoursWorked - 40;
+        } else {
+            return 0;
+        }
     }
 }
-
