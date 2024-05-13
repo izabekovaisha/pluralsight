@@ -1,9 +1,5 @@
 package com.pluralsight;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-
 public class Employee {
     private int employeeId;
     private String name;
@@ -45,25 +41,7 @@ public class Employee {
         startTime = time;
     }
 
-    public void punchIn() {
-       LocalDateTime now = LocalDateTime.now();
-       int hour = now.getHour();
-       int minute = now.getMinute();
-       double time = hour + (minute / 60.0);
-        startTime = time;
-    }
-
     public void punchOut(double time) {
-        double duration = time - startTime;
-        hoursWorked += duration;
-        startTime = 0;
-    }
-
-    public void punchOut() {
-        LocalDateTime now = LocalDateTime.now();
-        int hour = now.getHour();
-        int minute = now.getMinute();
-        double time = hour + (minute / 60.0);
         double duration = time - startTime;
         hoursWorked += duration;
         startTime = 0;
@@ -103,5 +81,3 @@ public class Employee {
         }
     }
 }
-
-

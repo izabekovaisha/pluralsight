@@ -33,7 +33,6 @@ public class Room {
         return !isOccupied && !isDirty;
     }
 
-    // Method to check in to the room
     public void checkIn() {
         if (!isOccupied && !isDirty) {
             isOccupied = true;
@@ -41,14 +40,13 @@ public class Room {
         }
     }
 
-    // Method to check out of the room
-    public void checkOut() {
-            isOccupied = false; // Mark the room as not occupied
+    public void checkout() {
+        isOccupied = false;
     }
 
-    // Method to clean the room
     public void cleanRoom() {
-            isDirty = false; // Mark the room as clean
+        if (!isOccupied) {
+            isDirty = false;
         }
     }
-
+}
