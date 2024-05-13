@@ -40,9 +40,11 @@ public class Room {
         }
     }
 
+
     public void checkout() {
         isOccupied = false;
     }
+
 
     public void cleanRoom() {
         if (!isOccupied) {
