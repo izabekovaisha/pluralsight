@@ -2,21 +2,15 @@ package com.pluralsight;
 
 public class Main {
      public static void main(String[] args) {
-          Moped slowRide = new Moped();
-          slowRide.setColor("Red");
-          slowRide.setFuelCapacity(5);
+          Moped slowRide = new Moped("Moped Model", "Red", 50, 5, 1, 10, 20);
+          SemiTruck semiTruck = new SemiTruck("Semitruck Model", );
 
-          SemiTruck semiTruck = new SemiTruck();
-          semiTruck.setNumberOfTrailers(2);
-          semiTruck.setFuelCapacity(100);
 
           Hovercraft hoverCraft = new Hovercraft();
-          hoverCraft.setAirCushionPressure(50);
-          hoverCraft.setColor("Blue");
+
 
           Car car = new Car();
-          car.setNumberOfDoors(4);
-          car.setTopSpeed(200);
+
 
           // Test the functionality of the classes and methods
           slowRide.ride();
