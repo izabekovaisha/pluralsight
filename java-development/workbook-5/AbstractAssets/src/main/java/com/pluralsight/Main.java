@@ -5,13 +5,6 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         ArrayList<Asset> assets = new ArrayList<>();
-        Asset asset1 = new Asset("Vacation house", "2024", 2000) {
-            @Override
-            public double getValue() {
-                return 0;
-            }
-        };
-
 
         // Create house objects
         House house1 = new House("My House", "2021-01-01", 200000.0, "123 Main St", 1, 2000, 5000);
