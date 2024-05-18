@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a0f9ce9-67cd-4e0e-95f8-61736d91702c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Hovercraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workbook-4/HotelOperations/src/main/java/com/pluralsight/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-4/HotelOperations/src/main/java/com/pluralsight/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workbook-4/intro-to-testing/src/main/java/com/pluralsight/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-4/intro-to-testing/src/main/java/com/pluralsight/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workbook-4/intro-to-testing/src/test/java/com/pluralsight/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-4/intro-to-testing/src/test/java/com/pluralsight/CarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="2a0f9ce9-67cd-4e0e-95f8-61736d91702c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
