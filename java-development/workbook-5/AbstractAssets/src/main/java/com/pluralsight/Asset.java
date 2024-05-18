@@ -36,8 +36,4 @@ public abstract class Asset {
     }
 
     public abstract double getValue();
-
-
-
-
 }

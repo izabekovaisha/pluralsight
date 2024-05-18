@@ -49,7 +49,6 @@ public class House extends Asset {
     @Override
     public double getValue() {
         double value = 0;
-
         switch (condition) {
             case 1:
                 value = 180.00 * squareFoot;

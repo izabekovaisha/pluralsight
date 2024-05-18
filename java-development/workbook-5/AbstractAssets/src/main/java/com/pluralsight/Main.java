@@ -33,7 +33,7 @@ public class Main {
                 System.out.println("Make/Model: " + vehicle.getMakeModel());
                 System.out.println("Year: " + vehicle.getYear());
             }
-            System.out.println("Value: $" + asset.getValue());
+            //System.out.println("Value: $" + asset.getValue());
             System.out.println();
         }
     }
