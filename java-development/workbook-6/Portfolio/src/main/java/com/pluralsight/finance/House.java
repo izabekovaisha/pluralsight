@@ -5,7 +5,7 @@ public class House extends FixedAsset {
     private int squareFeet;
     private int bedrooms;
 
-    public House(String name, double value, int yearBuilt, int squareFeet, int bedrooms) {
+    public House(int yearBuilt, int squareFeet, int bedrooms) {
         super("House", 0);
         this.yearBuilt = yearBuilt;
         this.squareFeet = squareFeet;
