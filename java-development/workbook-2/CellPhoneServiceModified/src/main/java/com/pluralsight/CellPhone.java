@@ -1,4 +1,4 @@
-package pluralsight;
+package com.pluralsight;
 
 public class CellPhone {
     private int serialNumber;

@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class CellPhoneApplication {
     public static void main(String[] args) {
         // Create a new instance of CellPhone
-        pluralsight.CellPhone cellPhone1 = new pluralsight.CellPhone();
-        pluralsight.CellPhone cellPhone2 = new pluralsight.CellPhone();
+        CellPhone cellPhone1 = new CellPhone();
+        CellPhone cellPhone2 = new CellPhone();
 
         // Create a scanner object to read user input
         Scanner scanner = new Scanner(System.in);
@@ -67,7 +67,7 @@ public class CellPhoneApplication {
         cellPhone2.dial(cellPhone1.getPhoneNumber());
     }
 
-    public static void display(pluralsight.CellPhone phone) {
+    public static void display(CellPhone phone) {
         System.out.println("\nCellPhone Details:");
         System.out.println("Serial Number: " + phone.getSerialNumber());
         System.out.println("Model: " + phone.getModel());
