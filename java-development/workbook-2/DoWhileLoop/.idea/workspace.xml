@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cb213b4-4aea-4504-9671-180bbaaa3587" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/FullNameGenerator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/FullNameGenerator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/FullNameGenerator/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/FullNameGenerator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/FullNameGenerator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/FullNameGenerator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/FullNameGenerator/src/main/java/com/pluralsight/FullNameApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/src/main/java/com/pluralsight/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-classes/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-classes/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-classes/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-classes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-classes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-classes/src/main/java/com/pluralsight/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-classes/src/main/java/com/pluralsight/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-5/Vehicles/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-5/Vehicles/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-6/StreamsPart2/src/main/java/com/pluralsight/streams/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-6/StreamsPart2/src/main/java/com/pluralsight/streams/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-6/StreamsPart2/src/main/java/com/pluralsight/streams/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-6/StreamsPart2/src/main/java/com/pluralsight/streams/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-7/nested-queries/nested_queries.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2fHYTXbr3BOeIEjARk5RCJJhoeQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/pluralsight/java-development/workbook-2/FullNameGenerator"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cb213b4-4aea-4504-9671-180bbaaa3587" name="Changes" comment="" />
+      <created>1713459478760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713459478760</updated>
+    </task>
+    <servers />
+  </component>
+</project>
