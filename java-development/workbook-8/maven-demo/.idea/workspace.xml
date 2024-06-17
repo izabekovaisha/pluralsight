@@ -4,27 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b2190bc-59cf-4e1c-a587-56d23c6ddadf" name="Changes" comment="" />
+    <list default="true" id="6b2190bc-59cf-4e1c-a587-56d23c6ddadf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../maven-demo-2/src/main/java/com/pluralsight/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-demo-2/src/test/java/com/pluralsight/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/FullNameGenerator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/FullNameGenerator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/FullNameGenerator/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/FullNameGenerator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/FullNameGenerator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/FullNameGenerator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/FullNameGenerator/src/main/java/com/pluralsight/FullNameApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-1/intro-to-conditionals/src/main/java/com/pluralsight/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-5/Vehicles/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-5/Vehicles/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-6/StreamsPart2/src/main/java/com/pluralsight/streams/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-6/StreamsPart2/src/main/java/com/pluralsight/streams/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-6/StreamsPart2/src/main/java/com/pluralsight/streams/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../workbook-6/StreamsPart2/src/main/java/com/pluralsight/streams/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workbook-7/nested-queries/nested_queries.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MavenProject/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MavenProject/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MavenProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MavenProject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MavenProject/src/main/java/com/pluralsight/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MavenProject/src/main/java/com/pluralsight/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MavenProject/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MavenProject/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2hgoHFuH5oJ5vUApRpsGWngreUq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

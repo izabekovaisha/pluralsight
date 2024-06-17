@@ -1,2 +1,4 @@
-package com.pluralsight.models;public class Shipper {
+package com.pluralsight.models;
+
+public class Shipper {
 }

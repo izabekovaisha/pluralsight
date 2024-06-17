@@ -16,7 +16,6 @@ public class Main {
 
         BasicDataSource dataSource = new BasicDataSource();
         dataSource.setUrl("jdbc:mysql://localhost:3306/sakila");
-
         dataSource.setUsername(username);
         dataSource.setPassword(password);
 

@@ -1,2 +1,4 @@
-package com.pluralsight.db;public class DataManager {
+package com.pluralsight.db;
+
+public class DataManager {
 }
